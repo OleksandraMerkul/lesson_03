@@ -1,0 +1,19 @@
+@import url("reset.css");
+* {color: orangered;}
+.text {color: blue;}
+.title {color: coral;}
+#big-title {color: blueviolet;}
+.list {color: darkgoldenrod;}  
+[class*="st"] {
+	color: green;
+}
+.title,
+.text {
+	color: darkslategray;
+}
+.text ~ p {color: aquamarine;}
+.text + p {color: brown;}
+.block > p {color: cornflowerblue;}
+.block p {color: rgb(47, 197, 197);}
+.block .list {color: darkblue;}
+.text * {color: gray;}
